@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Koko Hosting Sederhana</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <h1>Koko Hosting Sederhana</h1>
+      <p>Website demo untuk GitHub Pages dengan fitur setup, biaya, bandwidth, dan backend.</p>
+      <a href="#features" class="button">Lihat Fitur</a>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="setup" class="card">
+      <h2>Setup</h2>
+      <p>Mulai cepat dengan panduan langkah demi langkah untuk mengatur situs Anda di GitHub Pages.</p>
+      <ol>
+        <li>Buat repository baru di GitHub.</li>
+        <li>Tambahkan file <code>index.html</code>, <code>styles.css</code>, dan <code>script.js</code>.</li>
+        <li>Aktifkan GitHub Pages di Settings &gt; Pages dengan branch <strong>main</strong>.</li>
+        <li>Gunakan URL hosting yang disediakan untuk melihat situs Anda online.</li>
+      </ol>
+    </section>
+
+    <section id="biaya" class="card">
+      <h2>Biaya</h2>
+      <p>GitHub Pages gratis untuk situs pribadi dan proyek, sehingga kamu bisa mempublikasikan tanpa biaya tambahan.</p>
+      <ul>
+        <li>Hosting statis: gratis</li>
+        <li>Domain GitHub Pages: gratis</li>
+        <li>Custom domain: bisa digunakan tanpa biaya GitHub tambahan</li>
+      </ul>
+    </section>
+
+    <section id="banwich" class="card">
+      <h2>Bandwidth</h2>
+      <p>GitHub Pages cocok untuk website sederhana dengan traffic menengah.</p>
+      <ul>
+        <li>Bandwidth harian cukup untuk blog, portofolio, dan landing page.</li>
+        <li>Untuk penggunaan tinggi, gunakan CDN atau layanan hosting tambahan.</li>
+        <li>Pastikan ukuran file kecil untuk performa optimal.</li>
+      </ul>
+    </section>
+
+    <section id="backend" class="card">
+      <h2>Backend</h2>
+      <p>Karena GitHub Pages hanya mendukung konten statis, backend bisa diintegrasikan dengan layanan eksternal.</p>
+      <ul>
+        <li>Gunakan API pihak ketiga untuk formulir, komentar, atau autentikasi.</li>
+        <li>Atau tambahkan <code>serverless</code> function melalui Netlify, Vercel, atau Cloudflare.</li>
+        <li>Contoh: kirim data formulir ke layanan form processing tanpa server sendiri.</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="card action-card">
+      <h2>Demo Interaktif</h2>
+      <p>Coba masukkan nama untuk melihat salam personal.</p>
+      <div class="form-row">
+        <input id="nameInput" type="text" placeholder="Masukkan nama Anda" />
+        <button id="greetBtn">Sapa Saya</button>
+      </div>
+      <p id="greeting" class="greeting"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Koko Hosting Sederhana · Dibuat untuk demo GitHub Pages</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
